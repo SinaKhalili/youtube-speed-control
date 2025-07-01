@@ -1,8 +1,12 @@
 <img src="icons/icon128.png" align="left">
 
-# Youtube speed control  
+# (a fork of) youtube speed control  
+this just ports to chrome and adds the time saved.
 
-A simple way to control speed of the youtube playback in [firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-speed-control/)
+## Demo
+
+![video](src/option/output.mp4)
+
 
 ![](src/option/YouTubeSpeedOption.jpg)
 
@@ -10,4 +14,3 @@ Control speed of the youtube playback using keyboard.
 Press '+' to increase and '-' to decrease the playback speed.
 Or Shift + mouse wheel .
 
-That plugin doesn't work together with "Enhancer for YouTube™"

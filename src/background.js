@@ -1,9 +1,9 @@
-browser.runtime.onMessage.addListener(function (request, sender) {
-  if (request == 'show_page_action') {
-    browser.pageAction.show(sender.tab.id)
+chrome.runtime.onMessage.addListener(function (request, sender) {
+  if (request == "show_page_action") {
+    chrome.pageAction.show(sender.tab.id);
   }
-})
+});
 
-browser.pageAction.onClicked.addListener(function () {
-  browser.runtime.openOptionsPage()
-})
+chrome.pageAction.onClicked.addListener(function () {
+  chrome.runtime.openOptionsPage();
+});
